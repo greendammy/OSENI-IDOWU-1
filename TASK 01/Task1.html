@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="display.css">
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th>S/N</th>
+            <th>TAG NAME</th>
+            <th>CLOSING TAG TYPE</th>
+            <th>DISPLAY TYPE</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Img</td>
+            <td>Self Closing</td>
+            <td>Inline</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>a</td>
+            <td>Closing</td>
+            <td>Inline</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>p</td>
+            <td>Closing</td>
+            <td>Block</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>hr</td>
+            <td>Self Closing</td>
+            <td>Block</td>
+        </tr>
+    </table>
+    
+   
+
+
+
+        <form>
+            <div class="form-group">
+            <label>NAME</label>
+            <input 
+            name="name"
+            class=""
+             placeholder="Name"/>
+            <div class="error-hint hidden">Your name is required.</div>
+            </div>
+
+            <div class="form-group">
+                <label>AGE</label>
+                <input type="number" id="tentacles" 
+                name="tentacles" min="20" max="26">
+            </div>
+
+            <div class="form-group">
+                <label>ETHNIC</label>
+                <select id = "sel">
+                    <option value="Yoruba">Yoruba</option>
+                    <option value="Hausa">Hausa</option>
+                    <option value="Igbo">Igbo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>EMAIL</label>
+                <input 
+                name="email"
+                class=""
+                 placeholder="Your email address"/>
+                <div class="error-hint hidden">Your email is required.</div>
+                </div>
+
+                <div class="form-group">
+                    <label>PROFILE</label>
+                    <textarea name="message" placeholder="Your message"></textarea>
+                    <div class="error-hint hidden">Your email is required.</div>
+                    </div>
+
+            <hr/>
+            <button>Submit</button>
+        </form>
+
+        <div class="thank-you hidden">
+           Thank you
+        </div>
+
+
+
+    
+<script src="java.js"></script>
+</body>
+
+<style>
+    fieldset {
+        background-color: aqua;
+    }
+    label {
+        float: left;
+        width: 5em;
+    }
+
+</style>
+
+</html>
