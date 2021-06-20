@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css"/>
+
+<style>
+    th[data-href] {
+        cursor: pointer;
+    }
+</style>
+<body>
+    <table border="1">
+        <tr>
+            <th>S/N</th>
+            <th data-href="science.html/">Science Department Table</th>
+            <th data-href="art.html/">Art</th>
+            <th data-href="commercial.html/">Commercial</th>
+        </tr>
+        <tr class="m">
+            <td>1</td>
+            <td>English</td>
+            <td>Mathimatics</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr class="n">
+            <td>2</td>
+            <td>Agric</td>
+            <td>Geography</td>
+            <td>PHE</td>
+        </tr>
+        <tr class="o">
+            <td>3</td>
+            <td>Event</td>
+            <td>Yoruba</td>
+            <td>Ecnomics</td>
+        </tr>
+        <tr class="p">
+            <td>4</td>
+            <td>Music</td>
+            <td>Art</td>
+            <td>Business Study</td>
+        </tr>
+        <tr class="q">
+            <td>5</td>
+            <td>Maths</td>
+            <td>Language</td>
+            <td>Agric</td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () =>{
+         const rows = document.querySelectorAll("th[data-href]");
+         
+         rows.forEach(row => {
+           row.addEventListener("click", () => {
+             window.location.href =row.dataset.href;
+           });
+         });
+        });
+    </script>
+</body>
+</html>

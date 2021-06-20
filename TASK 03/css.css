@@ -1,0 +1,22 @@
+th {
+    color: black;
+}
+th:hover {
+    color: red;
+    transition: 0.5s;
+}
+tr.m{
+    color:blue;
+}
+tr.n{
+    color:yellow;
+}
+tr.o{
+    color:violet;
+}
+tr.p{
+    color:green;
+}
+tr.q{
+    color:blueviolet;
+}
