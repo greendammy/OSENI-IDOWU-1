@@ -1,0 +1,96 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css";
+
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(190, 240, 236);
+}
+
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;
+}
+.logo{
+}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:20px;
+  font-size:30px; font-family:raleway;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+.row{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.col-1, .col-2 {
+    height: 80%;
+    width: 100%;
+    display: block;
+}
+.col-1{
+    padding-left: 8%;
+}
+.col-1{
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.button{
+    display: inline-block;
+    width: fit-content;
+    padding: 14px 60px;
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+.feature-img {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.feature-img img{
+    width: 100%;
+}
+.col-3 {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: white;
+}
+.col-3{
+    padding-left: 8%;
+}
+.col-3{
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 500;  
+}
+.col-3 span {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.col-3 h6 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.h2{
+    text-align: center;
+}
